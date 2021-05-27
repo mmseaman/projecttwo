@@ -1,0 +1,19 @@
+@charset "UTF-8";
+h1, h2, form {
+  text-align: center
+}
+.logo {
+  display: block;
+  position: absolute;
+  height: auto;
+  width: 10%;
+  left: 3%;
+  top: 1.5%;
+}
+input[type=submit] {
+  font-size: 18px;
+  background-color: cornflowerblue;
+  margin: 1px;
+  padding: 5px;
+  border-radius: 6px;
+}

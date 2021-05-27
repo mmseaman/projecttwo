@@ -1,0 +1,53 @@
+@charset "UTF-8";
+body {
+  padding: 0;
+  margin: 0;
+}
+#container {
+  margin: 0;
+  position: absolute;
+}
+.main {
+  height: auto;
+  width: 100%; /*of the size of the browser*/
+}
+.marvins {
+  display: block;
+  position: absolute;
+  height: auto;
+  width: 18%;
+  left: 4%;
+  top: 45%;
+}
+.about {
+  display: block;
+  position: absolute;
+  height: auto;
+  width: 10%;
+  right: 3%;
+  top: 2%;
+}
+.logo {
+  display: block;
+  position: absolute;
+  height: auto;
+  width: 15%;
+  left: 5%;
+  top: 3.5%;
+}
+.astro1 {
+  display: block;
+  position: absolute;
+  height: auto;
+  width: 40%;
+  right: 0%;
+  bottom: 0%;
+}
+.astro2 {
+  display: block;
+  position: absolute;
+  height: auto;
+  width: 75%;
+  right: 0%;
+  bottom: 0%;
+}

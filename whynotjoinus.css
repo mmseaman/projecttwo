@@ -1,0 +1,28 @@
+@charset "UTF-8";
+h1, h2, h3, div {
+  text-align: center
+}
+body {background-color: coral}
+input[type=submit] {
+  font-size: 18px;
+  background-color: aqua;
+  margin: 1px;
+  padding: 5px;
+  border-radius: 6px;
+}
+button {
+  background-color: red;
+  color: yellow;
+  font-size: 18px;
+  padding: 5px;
+  border-radius: 6px;
+  margin: 3px;
+}
+.logo {
+  display: block;
+  position: absolute;
+  height: auto;
+  width: 10%;
+  left: 3%;
+  top: 1.5%;
+}

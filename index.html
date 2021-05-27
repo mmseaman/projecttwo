@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>SpaceY</title>
+<link href="styles.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<div id="container"> 
+    <img class="main" src="images/Project2_background.jpg" alt="Mars Background"/> 
+    <img class="marvins" src="images/L_Marvin.png" onClick="PlaySound('audio_01')" onMouseOver="this.src='images/L_MarvinElonLogo.png'" onMouseOut="this.src='images/L_Marvin.png'"/> 
+    <img class="logo" src="images/SpaceY_logo_01.png" OnMouseOver="this.src='images/SpaceY_logo_02.png'" OnMouseOut="this.src='images/SpaceY_logo_03.png'"/>
+  <a href="aboutus.html"><img class="about" src="images/AboutUs.png"/></a> 
+    <a href="whynotjoinus.html"> <img class="astro2" src="images/AstronautHead_WithJoin.png"/> </a> 
+    
+</div>
+
+    <audio id="audio_01" >
+  <source src="audio/marvin_01_inthenameofmars.mp3" type="audio/mp3">
+</audio>
+
+<script>   
+    function PlaySound(sound) {
+        var thissound=document.getElementById(sound);
+        thissound.play();  
+    }
+
+</script>
+</body>
+</html>
